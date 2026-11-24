@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>RAYARA ENTERPRISES | Building Trust, Creating Value</title>
+<link rel="canonical" href="https://www.raayaruenterprises.com/">
+<meta name="robots" content="index,follow">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="RAYARA ENTERPRISES">
+<meta property="og:title" content="RAYARA ENTERPRISES | Building Trust, Creating Value">
+<meta property="og:description" content="Events, mobile sales, automobile enquiries, customised gifts, photo frames and trip packages.">
+<meta property="og:url" content="https://www.raayaruenterprises.com/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#050505">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' fill='%23D4AF37'>R</text></svg>">
+<meta name="description" content="RAYARA ENTERPRISES: birthday and event management, mobile sales, automobile dealership enquiries, customised gifts, photo frames and trip packages.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#050505;--panel:#0d0d0d;--line:#2a2a2a;--gold:#D4AF37;--gold-hi:#e8c85a;--silver:#C0C0C0;--text:#f2f2f2;--muted:#b8b8b8;--serif:'Cormorant Garamond',Georgia,serif;--sans:'Manrope',system-ui,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:90px}
+body{background:var(--bg);color:var(--text);font:400 16px/1.7 var(--sans)}
+a{color:var(--gold);text-decoration:none}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.15;color:var(--gold)}
+h2{font-size:clamp(2rem,4vw,2.9rem);margin-bottom:1rem}
+h3{font-size:1.5rem;margin-bottom:.5rem}
+p{color:var(--muted);max-width:68ch}
+section{padding:6rem 1.25rem;max-width:1180px;margin:0 auto}
+.hidden{display:none!important}
+.btn{display:inline-block;background:var(--gold);color:#000;border:0;padding:.85rem 1.5rem;font:600 .95rem var(--sans);cursor:pointer;border-radius:2px;transition:background .25s,transform .25s}
+.btn:hover{background:var(--gold-hi);transform:translateY(-1px)}
+.btn.ghost{background:transparent;color:var(--gold);border:1px solid var(--gold)}
+.btn.ghost:hover{background:rgba(212,175,55,.1)}
+.btn.wa{background:#25D366}
+.btn.sm{padding:.45rem .9rem;font-size:.85rem}
+header{position:sticky;top:0;z-index:50;background:rgba(5,5,5,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:.9rem 1.25rem;max-width:1180px;margin:0 auto;gap:1rem;position:relative}
+.brand{font:700 1.35rem var(--serif);color:var(--gold);letter-spacing:.08em}
+.brand span{color:var(--silver);font-weight:400}
+.nav ul{display:flex;gap:1.5rem;list-style:none;align-items:center}
+.nav ul a{color:var(--text);font-size:.92rem}
+.nav ul a:hover{color:var(--gold)}
+.menu-btn{display:none;background:none;border:1px solid var(--gold);color:var(--gold);padding:.4rem .7rem;cursor:pointer;font-size:1.1rem}
+@media(max-width:900px){
+ .menu-btn{display:block}
+ .nav ul{display:none;position:absolute;top:100%;left:0;right:0;background:#050505;flex-direction:column;padding:1rem 1.25rem 1.5rem;border-bottom:1px solid var(--line)}
+ .nav ul.open{display:flex}
+}
+.hero{min-height:80vh;display:flex;flex-direction:column;justify-content:center;gap:1.4rem;padding-top:4rem}
+.logo-mark{font:700 clamp(3rem,10vw,7rem)/1 var(--serif);letter-spacing:.06em;background:linear-gradient(100deg,#8a6d1f 0%,#f3dc7a 30%,#D4AF37 50%,#C0C0C0 75%,#f5f5f5 100%);-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:0 2px 24px rgba(212,175,55,.25)}
+.logo-mark .word{display:inline-block;font-family:'Cormorant Garamond',Georgia,serif;font-weight:700;letter-spacing:.14em;font-style:italic;background:linear-gradient(100deg,#7a5c14 0%,#f7e27a 22%,#D4AF37 38%,#fff3b8 50%,#C0C0C0 62%,#D4AF37 80%,#7a5c14 100%);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 12px rgba(212,175,55,.35))}
+.logo-mark small{display:block;font:400 .3em var(--serif);color:var(--silver);letter-spacing:.35em;margin-top:.6rem}
+.tag{font:italic 400 clamp(1.4rem,3vw,2rem) var(--serif);color:var(--silver)}
+.rule{height:1px;background:linear-gradient(90deg,var(--gold),transparent);width:160px}
+.hero-actions{display:flex;gap:1rem;flex-wrap:wrap}
+.banner{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));border:1px solid var(--line);margin-top:2.5rem}
+.banner div{padding:1.1rem 1rem;border-right:1px solid var(--line);font-size:.92rem;color:var(--silver)}
+.banner div:last-child{border-right:0}
+.why{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.2rem;margin-top:2rem}
+.why div{border-top:1px solid var(--silver);padding-top:1rem}
+.why b{color:var(--silver);font-weight:600;display:block;margin-bottom:.3rem}
+.why .ic{color:var(--gold);font-size:1.2rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.5rem;margin-top:2.5rem}
+.svc{position:relative;min-height:360px;overflow:hidden;border:1px solid var(--line);display:flex;flex-direction:column;justify-content:flex-end;padding:2rem;background-size:cover;background-position:center;transition:border-color .3s}
+.svc::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,5,5,.35),rgba(5,5,5,.92))}
+.svc>*{position:relative}
+.svc:hover{border-color:var(--gold)}
+.svc ul{padding-left:1.1rem;color:var(--muted);font-size:.93rem;margin:.5rem 0 1rem}
+.svc .tagline{color:var(--silver);font-style:italic}
+.svc .btn{align-self:flex-start}
+.notice{border-left:3px solid var(--gold);background:var(--panel);padding:1.4rem 1.6rem;margin:2rem 0}
+.notice strong{color:var(--gold)}
+.form-block{margin-top:4rem;scroll-margin-top:100px}
+form.f{display:grid;grid-template-columns:1fr 1fr;gap:1rem 1.25rem;margin-top:1.5rem}
+form.f .full{grid-column:1/-1}
+label{display:flex;flex-direction:column;gap:.35rem;font-size:.9rem;color:var(--silver)}
+input,select,textarea{background:#0a0a0a;border:1px solid #3a3a3a;color:var(--text);padding:.7rem .85rem;font:400 .95rem var(--sans);border-radius:2px;width:100%}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--gold)}
+textarea{min-height:100px;resize:vertical}
+.check{flex-direction:row;align-items:flex-start;gap:.7rem;color:var(--text)}
+.check input{width:18px;height:18px;margin-top:.25rem;accent-color:var(--gold);flex:none}
+.err{color:#ff8a80;font-size:.85rem;min-height:1.1em}
+.acts{display:flex;gap:.8rem;flex-wrap:wrap;align-items:center}
+.done{display:none;border:1px solid var(--gold);padding:1.4rem;margin-top:1.5rem;background:var(--panel)}
+.done.show{display:block}
+.done h3{margin-bottom:.4rem}
+.split{display:grid;grid-template-columns:1fr 1.2fr;gap:3rem}
+@media(max-width:860px){.split,form.f{grid-template-columns:1fr}}
+.info a{display:block;color:var(--text);margin:.3rem 0}
+.info .sub{color:var(--silver);font-size:.9rem;margin-top:1.2rem}
+.filters{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:1.5rem}
+.filters button{background:transparent;border:1px solid #3a3a3a;color:var(--silver);padding:.45rem .85rem;cursor:pointer;font:500 .85rem var(--sans)}
+.filters button.on,.filters button:hover{border-color:var(--gold);color:var(--gold)}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem;margin-top:1.8rem}
+.gallery figure{position:relative;aspect-ratio:4/3;overflow:hidden;cursor:pointer;border:1px solid var(--line);background-size:cover;background-position:center;transition:transform .35s,border-color .3s}
+.gallery figure:hover{transform:translateY(-2px);border-color:var(--gold)}
+.gallery figcaption{position:absolute;left:0;right:0;bottom:0;padding:.6rem .8rem;background:linear-gradient(transparent,rgba(0,0,0,.85));font-size:.82rem;color:var(--silver)}
+.gallery .tag-s{position:absolute;top:.5rem;left:.5rem;background:rgba(0,0,0,.7);color:var(--silver);font-size:.7rem;padding:.2rem .45rem}
+.lightbox{position:fixed;inset:0;background:rgba(0,0,0,.94);z-index:90;display:flex;align-items:center;justify-content:center;padding:1.5rem;cursor:zoom-out}
+.lightbox .frame{width:min(900px,92vw);aspect-ratio:4/3;background-size:cover;background-position:center;border:1px solid var(--gold)}
+.lightbox p{position:absolute;bottom:2rem;left:0;right:0;text-align:center;color:var(--silver)}
+footer{background:#000;border-top:1px solid var(--gold);padding:3.5rem 1.25rem 2rem;margin-top:4rem}
+.foot{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:2rem}
+footer h4{font:600 1.1rem var(--serif);color:var(--silver);margin-bottom:.6rem}
+footer a,footer p{color:var(--muted);display:block;font-size:.92rem;margin:.25rem 0}
+.copy{text-align:center;color:var(--silver);font-size:.85rem;margin-top:2.5rem;border-top:1px solid var(--line);padding-top:1.5rem}
+.wa-float{position:fixed;right:18px;bottom:18px;z-index:60;background:#25D366;color:#000;width:58px;height:58px;border-radius:50%;border:0;cursor:pointer;font:700 .72rem var(--sans);box-shadow:0 4px 14px rgba(0,0,0,.5);transition:transform .25s}
+.wa-float:hover{transform:scale(1.07)}
+.wa-pick{position:fixed;right:18px;bottom:88px;z-index:60;background:#0d0d0d;border:1px solid var(--gold);padding:.9rem;display:none;flex-direction:column;gap:.6rem;min-width:230px}
+.wa-pick.show{display:flex}
+.wa-pick a{color:var(--text);font-size:.9rem;padding:.3rem 0}
+.wa-pick .x{color:var(--silver);font-size:.8rem;background:none;border:0;cursor:pointer;align-self:flex-end}
+.admin{max-width:1100px;margin:3rem auto;padding:0 1.25rem}
+.panel{background:var(--panel);border:1px solid var(--line);padding:1.5rem;margin-top:1.5rem}
+.row{display:flex;gap:.6rem;flex-wrap:wrap;align-items:center;margin-top:.8rem}
+.row input,.row select{flex:1;min-width:180px;width:auto}
+.admin table{width:100%;border-collapse:collapse;font-size:.84rem;margin-top:1rem}
+.admin th,.admin td{border-bottom:1px solid var(--line);padding:.55rem;text-align:left;vertical-align:top;color:var(--muted)}
+.admin th{color:var(--gold)}
+.thumbs{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:.6rem;margin-top:1rem}
+.thumbs div{border:1px solid var(--line);aspect-ratio:4/3;background-size:cover;background-position:center;position:relative;font-size:.7rem;color:var(--silver)}
+.thumbs button{position:absolute;right:4px;bottom:4px;background:#000;color:#ff8a80;border:1px solid #444;font-size:.7rem;padding:.15rem .4rem;cursor:pointer}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<header>
+  <nav class="nav" aria-label="Main navigation">
+    <a class="brand" href="#home">RAYARA <span>ENTERPRISES</span></a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+    <ul id="navList">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#services">Our Services</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+      <li><a class="btn sm" href="#contact">Get in Touch</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="site">
+
+<section id="home" class="hero">
+  <div class="logo-mark"><span class="word">RAYARA</span><small>ENTERPRISES</small></div>
+  <div class="rule"></div>
+  <p class="tag" id="tagline">Building Trust, Creating Value.</p>
+  <p>Your One-Stop Destination for Events, Mobility, Personalised Gifts, Automotive Solutions and Travel Experiences.</p>
+  <div class="hero-actions">
+    <a class="btn" href="#services">Explore Our Services</a>
+    <a class="btn ghost" href="#contact">Contact Us</a>
+  </div>
+  <div class="banner" aria-label="Our services">
+    <div>Birthday &amp; Events</div><div>Mobile Sales</div><div>Automobile Dealership</div><div>Customised Gifts</div><div>Photo Frames</div><div>Trip Packages</div>
+  </div>
+</section>
+
+<section id="about">
+  <h2>Who We Are</h2>
+  <p>RAYARA ENTERPRISES is a multi-service business committed to delivering quality, convenience and customer satisfaction. From memorable celebrations and personalised gifts to mobile sales, automobile solutions and customised travel experiences, we bring multiple services together under one trusted brand.</p>
+  <p style="margin-top:1rem">Our mission is to build lasting relationships through trust, quality and reliable service.</p>
+  <div class="why">
+    <div><h3>Our Vision</h3><p>To be a trusted name for every celebration, purchase and journey our customers take.</p></div>
+    <div><h3>Our Mission</h3><p>To build lasting relationships through trust, quality and reliable service.</p></div>
+    <div><h3>Why Choose Us</h3><p>Multiple services under one brand, a customer-focused approach and personalised solutions.</p></div>
+  </div>
+  <div class="why">
+    <div><b><span class="ic">&#9670;</span> Multiple services under one brand</b></div>
+    <div><b><span class="ic">&#9670;</span> Customer-focused approach</b></div>
+    <div><b><span class="ic">&#9670;</span> Quality and reliability</b></div>
+    <div><b><span class="ic">&#9670;</span> Personalised solutions</b></div>
+    <div><b><span class="ic">&#9670;</span> Professional service</b></div>
+    <div><b><span class="ic">&#9670;</span> Commitment to customer satisfaction</b></div>
+  </div>
+</section>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="grid">
+    <article class="svc" data-bg="bday" data-grad="linear-gradient(135deg,#4a3410,#1a1206 60%,#0a0a0a)">
+      <h3>Birthday &amp; Event Management</h3>
+      <p class="tagline">Your Place, Your Celebration, Our Creativity.</p>
+      <ul><li>Birthday party planning and decorations</li><li>Event arrangements and special celebrations</li><li>Setup at your suggested or preferred location</li></ul>
+      <button class="btn" data-go="bday">Enquire Now</button>
+    </article>
+    <article class="svc" data-bg="mobile" data-grad="linear-gradient(135deg,#3b4450,#14181e 60%,#080a0d)">
+      <h3>Mobile Sales &amp; Services</h3>
+      <ul><li>Mobile phone sales</li><li>Smartphone enquiries</li><li>Mobile-related services and customer assistance</li></ul>
+      <button class="btn" data-go="mobile">Explore Mobile Services</button>
+    </article>
+    <article class="svc" data-bg="auto" data-grad="linear-gradient(135deg,#2b2b2b,#101010 60%,#050505)">
+      <h3>Automobile Dealership</h3>
+      <ul><li>Automobile sales enquiries</li><li>Vehicle dealership services</li><li>Vehicle-related enquiries</li></ul>
+      <button class="btn" data-go="auto">Enquire Now</button>
+    </article>
+    <article class="svc" data-bg="gift" data-grad="linear-gradient(135deg,#4a2f2a,#1a100e 60%,#0a0605)">
+      <h3>Customised Gifts</h3>
+      <ul><li>Personalised and customised photo gifts</li><li>Special occasion gifts</li><li>Unique gifting solutions</li></ul>
+      <button class="btn" data-go="gift">Customise Your Gift</button>
+    </article>
+    <article class="svc" data-bg="frame" data-grad="linear-gradient(135deg,#2c3a2e,#101712 60%,#060806)">
+      <h3>Birthday &amp; Photo Frames</h3>
+      <ul><li>Personalised birthday frames</li><li>Customised and regular photo frames</li><li>Creative photo memories</li></ul>
+      <button class="btn" data-go="frame">Order Your Frame</button>
+    </article>
+    <article class="svc" data-bg="trip" data-grad="linear-gradient(135deg,#1d3a40,#0a1518 60%,#050808)">
+      <h3>Customised Trip Packages</h3>
+      <ul><li>Family and friends group trips</li><li>Couple travel and weekend getaways</li><li>Personalised travel planning</li></ul>
+      <button class="btn" data-go="trip">Plan Your Trip</button>
+    </article>
+  </div>
+
+  <div class="form-block" id="birthday-form">
+    <h2>Birthday Event Enquiry</h2>
+    <p class="tag" style="font-size:1.3rem">Your Place, Your Celebration, Our Creativity.</p>
+    <div class="notice"><strong>PLEASE NOTE:</strong> RAYARA ENTERPRISES does not provide party halls or event venues. Customers are responsible for arranging their own preferred venue. We provide birthday decoration and event management services at the customer's suggested location.</div>
+    <form class="f" id="bdayForm" data-kind="Birthday & Event Management" novalidate>
+      <label>Customer Name *<input name="name" data-l="Name" required></label>
+      <label>Contact Number *<input name="phone" data-l="Contact" type="tel" required></label>
+      <label>Email Address *<input name="email" data-l="Email" type="email" required></label>
+      <label>Type of Birthday Celebration *<input name="celebration" data-l="Celebration" required></label>
+      <label>Event Date *<input name="date" data-l="Event date" type="date" required></label>
+      <label>Preferred Event Location *
+        <select name="location" data-l="Location" required>
+          <option value="">Select a location</option>
+          <option>Own home</option><option>Booked party hall</option><option>Hotel</option><option>Restaurant</option><option>Resort</option><option>Outdoor location</option><option>Other customer-arranged venue</option>
+        </select>
+      </label>
+      <label>Complete Venue Address *<input name="address" data-l="Venue address" required></label>
+      <label>Venue Booking Status *
+        <select name="booking" data-l="Venue status" required>
+          <option value="">Select status</option>
+          <option>Venue already booked</option><option>Venue arranged by customer</option><option>Venue not yet booked</option>
+        </select>
+      </label>
+      <label class="full">Decoration Requirements *<textarea name="decor" data-l="Decoration" required></textarea></label>
+      <label class="full">Additional Requirements or Special Instructions<textarea name="notes" data-l="Notes"></textarea></label>
+      <label class="full check"><input type="checkbox" name="ack" required>I understand that RAYARA ENTERPRISES does not provide party halls or event venues, and I am responsible for arranging my own event location.</label>
+      <div class="full err" data-err></div>
+      <div class="full acts"><button class="btn" type="submit">Submit Enquiry</button></div>
+    </form>
+    <div class="done" data-done></div>
+  </div>
+
+  <div class="form-block" id="auto-form">
+    <h2>Automobile Enquiry</h2>
+    <p>Share the vehicle you are interested in. We will confirm details and availability with you directly.</p>
+    <form class="f" id="autoForm" data-kind="Automobile Dealership" novalidate>
+      <label>Customer Full Name *<input name="name" data-l="Name" required></label>
+      <label>Primary Mobile Number *<input name="phone" data-l="Primary mobile" type="tel" required></label>
+      <label>Alternative Mobile Number<input name="altphone" data-l="Alternative mobile" type="tel"></label>
+      <label>Email Address *<input name="email" data-l="Email" type="email" required></label>
+      <label>Vehicle Brand<input name="brand" data-l="Brand"></label>
+      <label>Vehicle Model<input name="model" data-l="Model"></label>
+      <label>Vehicle Type
+        <select name="vtype" data-l="Vehicle type">
+          <option value="">Select type</option><option>Car</option><option>Bike</option><option>SUV</option><option>Commercial vehicle</option><option>Other</option>
+        </select>
+      </label>
+      <label>New or Used Requirement *
+        <select name="condition" data-l="Condition" required>
+          <option value="">Select</option><option>New</option><option>Used</option><option>Either</option>
+        </select>
+      </label>
+      <label>Budget Range (optional)<input name="budget" data-l="Budget"></label>
+      <label class="full">Vehicle Details<textarea name="vdetails" data-l="Vehicle details"></textarea></label>
+      <label class="full">Additional Requirements or Message<textarea name="message" data-l="Message"></textarea></label>
+      <div class="full err" data-err></div>
+      <div class="full acts"><button class="btn" type="submit">Submit Automobile Enquiry</button></div>
+    </form>
+    <div class="done" data-done></div>
+  </div>
+
+  <div class="form-block" id="trip-form">
+    <h2>Plan Your Trip</h2>
+    <form class="f" id="tripForm" data-kind="Customised Trip Packages" novalidate>
+      <label>Name *<input name="name" data-l="Name" required></label>
+      <label>Contact Number *<input name="phone" data-l="Contact" type="tel" required></label>
+      <label>Email Address *<input name="email" data-l="Email" type="email" required></label>
+      <label>Preferred Destination *<input name="destination" data-l="Destination" required></label>
+      <label>Travel Date *<input name="date" data-l="Travel date" type="date" required></label>
+      <label>Number of Travellers *<input name="travellers" data-l="Travellers" type="number" min="1" required></label>
+      <label>Type of Trip *
+        <select name="triptype" data-l="Trip type" required>
+          <option value="">Select</option><option>Family trip</option><option>Friends group trip</option><option>Couple trip</option><option>Weekend getaway</option><option>Customised holiday</option>
+        </select>
+      </label>
+      <label class="full">Additional Requirements<textarea name="notes" data-l="Requirements"></textarea></label>
+      <div class="full err" data-err></div>
+      <div class="full acts"><button class="btn" type="submit">Submit Enquiry</button></div>
+    </form>
+    <div class="done" data-done></div>
+  </div>
+</section>
+
+<section id="gallery">
+  <h2>Gallery</h2>
+  <p>Birthday celebrations, event decorations, customised gifts, photo frames, mobile products, automobiles and travel destinations.</p>
+  <div class="filters" id="filters"></div>
+  <div class="gallery" id="galleryGrid"></div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <div class="split">
+    <div class="info">
+      <h3>RAYARA ENTERPRISES</h3>
+      <p>Building Trust, Creating Value.</p>
+      <p class="sub">Phone and WhatsApp</p>
+      <div id="phoneList"></div>
+      <p class="sub">Email</p>
+      <div id="emailList"></div>
+      <div class="acts" style="margin-top:1.2rem">
+        <a class="btn" id="callBtn" href="tel:+919980130100">Call Now</a>
+        <button class="btn wa" data-wa>Chat on WhatsApp</button>
+        <a class="btn ghost" id="mailBtn" href="mailto:preethamb1116@gmail.com">Send an Email</a>
+      </div>
+    </div>
+    <div>
+      <h3>General Enquiry</h3>
+      <form class="f" id="genForm" data-kind="General" novalidate>
+        <label>Customer Name *<input name="name" data-l="Name" required></label>
+        <label>Mobile Number *<input name="phone" data-l="Mobile" type="tel" required></label>
+        <label>Email Address *<input name="email" data-l="Email" type="email" required></label>
+        <label>Select a Service *
+          <select name="service" data-l="Service" required>
+            <option value="">Choose one</option>
+            <option>Birthday &amp; Event Management</option><option>Mobile Sales &amp; Services</option><option>Automobile Dealership</option><option>Customised Gifts</option><option>Birthday &amp; Photo Frames</option><option>Customised Trip Packages</option>
+          </select>
+        </label>
+        <label class="full">Message *<textarea name="message" data-l="Message" required></textarea></label>
+        <div class="full err" data-err></div>
+        <div class="full acts"><button class="btn" type="submit">Submit Enquiry</button></div>
+      </form>
+      <div class="done" data-done></div>
+    </div>
+  </div>
+</section>
+
+<div id="admin-view" class="admin hidden">
+  <h2>Admin Dashboard</h2>
+  <div id="loginBox" class="panel">
+    <label>Password<input type="password" id="adminPass"></label>
+    <div class="row"><button class="btn" id="loginBtn">Sign in</button></div>
+    <p class="err" id="loginErr"></p>
+  </div>
+  <div id="adminBox" class="hidden">
+    <div class="panel">
+      <h3>Site contact and text</h3>
+      <label style="margin-top:.8rem">Tagline<input id="aTag"></label>
+      <label style="margin-top:.8rem">Phone numbers (also used for WhatsApp), comma separated<input id="aPhones"></label>
+      <label style="margin-top:.8rem">Email addresses, comma separated<input id="aEmails"></label>
+      <label style="margin-top:.8rem">Instagram URL<input id="aIg"></label>
+      <label style="margin-top:.8rem">Facebook URL<input id="aFb"></label>
+      <div class="row"><button class="btn" id="aSave">Save changes</button><span id="aMsg" style="color:var(--silver)"></span></div>
+    </div>
+    <div class="panel">
+      <h3>Service background images</h3>
+      <p>Each service has a sample background until you upload its own image. Uploads are resized automatically.</p>
+      <div class="row"><select id="svcSel"></select><input type="file" id="svcFile" accept="image/*"><button class="btn ghost sm" id="svcReset">Reset to sample</button></div>
+    </div>
+    <div class="panel">
+      <h3>Gallery</h3>
+      <p>Sample images are labelled. Delete them and upload your own work.</p>
+      <div class="row"><select id="gCat"></select><input type="file" id="gFile" accept="image/*"><button class="btn sm" id="gAdd">Add image</button></div>
+      <div class="thumbs" id="gThumbs"></div>
+    </div>
+    <div class="panel">
+      <h3>Enquiries</h3>
+      <div style="overflow-x:auto"><table><thead><tr><th>Date</th><th>Form</th><th>Name</th><th>Contact</th><th>Details</th></tr></thead><tbody id="enqRows"></tbody></table></div>
+      <div class="row"><button class="btn ghost" id="exportBtn">Export CSV</button><button class="btn ghost" id="clearBtn">Clear enquiries</button></div>
+    </div>
+  </div>
+</div>
+
+</main>
+
+<footer>
+  <div class="foot">
+    <div><h4>RAYARA ENTERPRISES</h4><p>Building Trust, Creating Value.</p></div>
+    <div><h4>Quick Links</h4><a href="#home">Home</a><a href="#about">About Us</a><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#contact">Contact Us</a></div>
+    <div><h4>Contact</h4><p id="footPhones"></p><div id="footEmails"></div></div>
+    <div><h4>Follow Us</h4><div id="footSocial"></div></div>
+  </div>
+  <p class="copy">&copy; 2026 RAYARA ENTERPRISES. All Rights Reserved. &middot; <a href="#admin" style="color:var(--silver)">Admin</a></p>
+</footer>
+
+<div class="wa-pick" id="waPick" role="menu" aria-label="Choose WhatsApp number"><button class="x" id="waX">Close</button></div>
+<button class="wa-float" id="waFloat" aria-label="Chat on WhatsApp">WhatsApp</button>
+
+<div class="lightbox hidden" id="lb" role="dialog" aria-modal="true"><div class="frame" id="lbFrame"></div><p id="lbCap"></p></div>
+
+<script>
+(function(){
+  const ENDPOINT='';
+  const KEY='rayaru_v2';
+  const svgUrl=s=>"url('data:image/svg+xml,"+encodeURIComponent(s).replace(/'/g,'%27')+"')";
+  const ART={
+  'Birthday Celebrations':'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect width="400" height="300" fill="#1a1206"/><circle cx="130" cy="110" r="42" fill="#D4AF37" opacity=".85"/><circle cx="200" cy="90" r="42" fill="#f3dc7a" opacity=".85"/><circle cx="270" cy="115" r="42" fill="#C0C0C0" opacity=".8"/><line x1="130" y1="152" x2="200" y2="200" stroke="#888"/><line x1="200" y1="132" x2="200" y2="200" stroke="#888"/><line x1="270" y1="157" x2="200" y2="200" stroke="#888"/><rect x="130" y="200" width="140" height="22" fill="#f3dc7a"/><rect x="140" y="222" width="120" height="48" fill="#D4AF37"/><circle cx="200" cy="196" r="8" fill="#fff3b8"/></svg>',
+  'Event Decorations':'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect width="400" height="300" fill="#0a0806"/><path d="M20 40 Q200 110 380 40" fill="none" stroke="#888" stroke-width="2"/><g fill="#f3dc7a"><circle cx="60" cy="63" r="7"/><circle cx="110" cy="85" r="7"/><circle cx="160" cy="98" r="7"/><circle cx="240" cy="98" r="7"/><circle cx="290" cy="85" r="7"/><circle cx="340" cy="63" r="7"/></g><rect x="110" y="130" width="180" height="110" fill="#1d160a" stroke="#D4AF37"/><rect x="150" y="160" width="100" height="6" fill="#D4AF37"/><rect x="150" y="180" width="70" height="6" fill="#C0C0C0"/></svg>',
+  'Customised Gifts':'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect width="400" height="300" fill="#140c0a"/><rect x="120" y="130" width="160" height="120" fill="#4a2f2a"/><rect x="120" y="110" width="160" height="26" fill="#D4AF37"/><rect x="190" y="110" width="20" height="140" fill="#D4AF37"/><path d="M200 110 C170 70 150 80 180 110 M200 110 C230 70 250 80 220 110" fill="none" stroke="#D4AF37" stroke-width="6"/></svg>',
+  'Birthday Frames':'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect width="400" height="300" fill="#080c09"/><rect x="110" y="50" width="180" height="200" fill="#1c2a1f" stroke="#D4AF37" stroke-width="8"/><circle cx="200" cy="120" r="34" fill="#f3dc7a" opacity=".8"/><rect x="150" y="180" width="100" height="10" fill="#C0C0C0"/><path d="M200 230 l-12 -12 a8 8 0 0 1 12 -10 a8 8 0 0 1 12 10 z" fill="#D4AF37"/></svg>',
+  'Normal Photo Frames':'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect width="400" height="300" fill="#0c0c0c"/><rect x="90" y="60" width="130" height="95" fill="#2a2a2a" stroke="#C0C0C0" stroke-width="6"/><rect x="180" y="150" width="130" height="95" fill="#2a2a2a" stroke="#D4AF37" stroke-width="6"/><circle cx="130" cy="95" r="15" fill="#888"/><rect x="210" y="180" width="50" height="30" fill="#555"/></svg>',
+  'Mobile Products':'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect width="400" height="300" fill="#080a0d"/><rect x="150" y="45" width="100" height="210" rx="18" fill="#1b2029" stroke="#C0C0C0" stroke-width="4"/><rect x="160" y="62" width="80" height="176" rx="6" fill="#0d1a2a"/><rect x="180" y="52" width="40" height="5" rx="2" fill="#555"/><circle cx="200" cy="230" r="7" fill="none" stroke="#C0C0C0" stroke-width="2"/><rect x="170" y="90" width="60" height="10" fill="#D4AF37" opacity=".8"/></svg>',
+  'Automobile':'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect width="400" height="300" fill="#050505"/><path d="M90 190 L120 140 Q130 128 150 128 L250 128 Q270 128 285 142 L310 190 Z" fill="#2b2b2b" stroke="#C0C0C0" stroke-width="3"/><path d="M135 140 L150 158 L200 158 L200 140 Z M215 140 L215 158 L280 158 L265 140 Z" fill="#0a0a0a"/><rect x="80" y="190" width="240" height="30" rx="8" fill="#D4AF37"/><circle cx="140" cy="222" r="22" fill="#111" stroke="#C0C0C0" stroke-width="4"/><circle cx="270" cy="222" r="22" fill="#111" stroke="#C0C0C0" stroke-width="4"/></svg>',
+  'Travel Destinations':'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect width="400" height="300" fill="#050808"/><circle cx="310" cy="80" r="26" fill="#f3dc7a" opacity=".9"/><polygon points="0,230 90,120 160,200 230,100 320,220 400,160 400,300 0,300" fill="#1d3a40"/><polygon points="0,260 120,190 220,260 300,210 400,260 400,300 0,300" fill="#0a1518"/></svg>'
+  };
+  const SAMPLE=Object.fromEntries(Object.entries(ART).map(([k,v])=>[k,svgUrl(v)]));
+  const CATS=Object.keys(SAMPLE);
+  const SVCS={bday:'Birthday & Event Management',mobile:'Mobile Sales & Services',auto:'Automobile Dealership',gift:'Customised Gifts',frame:'Birthday & Photo Frames',trip:'Customised Trip Packages'};
+  const DEF={tagline:'Building Trust, Creating Value.',phones:['+91 9980130100','+91 8548998014'],emails:['preethamb1116@gmail.com','charancs5295@gmail.com'],ig:'https://www.instagram.com/_rayaruenterprises_',fb:'',password:'rayaru2026',images:{},gallery:CATS.map(c=>({id:c+'1',cat:c,sample:true})),enquiries:[]};
+  let db;
+  try{db=Object.assign({},DEF,JSON.parse(localStorage.getItem(KEY))||{})}catch(e){db=Object.assign({},DEF)}
+  db.gallery=db.gallery.filter((g,i,a)=>!g.sample||a.findIndex(x=>x.sample&&x.cat===g.cat)===i);
+  const persist=()=>{try{localStorage.setItem(KEY,JSON.stringify(db))}catch(e){alert('Storage is full. Remove some images in the admin dashboard.')}};
+  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const digits=n=>n.replace(/\D/g,'');
+  const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)];
+
+  function renderContacts(){
+    $('#tagline').textContent=db.tagline;
+    $('#phoneList').innerHTML=db.phones.map(p=>`<a href="tel:${digits(p)}">${esc(p)}</a><a href="https://wa.me/${digits(p)}" target="_blank" rel="noopener" style="color:var(--silver);font-size:.9rem;margin-bottom:.8rem">WhatsApp ${esc(p)}</a>`).join('');
+    $('#emailList').innerHTML=db.emails.map(e=>`<a href="mailto:${esc(e)}">${esc(e)}</a>`).join('');
+    $('#callBtn').href='tel:'+digits(db.phones[0]||'');
+    $('#mailBtn').href='mailto:'+db.emails.join(',');
+    $('#footPhones').textContent=db.phones.join(' / ');
+    $('#footEmails').innerHTML=db.emails.map(e=>`<a href="mailto:${esc(e)}">${esc(e)}</a>`).join('');
+    $('#footSocial').innerHTML=(db.ig?`<a href="${esc(db.ig)}" target="_blank" rel="noopener">Instagram</a>`:'')+(db.fb?`<a href="${esc(db.fb)}" target="_blank" rel="noopener">Facebook</a>`:'');
+  }
+  function renderBackgrounds(){
+    $$('[data-bg]').forEach(el=>{
+      const k=el.dataset.bg, img=db.images[k];
+      el.style.backgroundImage=img?`url("${img}")`:el.dataset.grad;
+    });
+  }
+  function renderGallery(filter='All'){
+    $('#filters').innerHTML=['All',...CATS].map(c=>`<button class="${c===filter?'on':''}" data-f="${esc(c)}">${esc(c)}</button>`).join('');
+    const items=db.gallery.filter(g=>filter==='All'||g.cat===filter);
+    $('#galleryGrid').innerHTML=items.map(g=>`<figure data-id="${g.id}" tabindex="0" style="background-image:${g.src?`url('${g.src}')`:SAMPLE[g.cat]}">
+      ${g.sample?'<span class="tag-s">Sample</span>':''}<figcaption>${esc(g.cat)}</figcaption></figure>`).join('')||'<p>No images in this category yet.</p>';
+  }
+  $('#filters').addEventListener('click',e=>{const b=e.target.closest('[data-f]');if(b)renderGallery(b.dataset.f)});
+  $('#galleryGrid').addEventListener('click',e=>{
+    const f=e.target.closest('figure');if(!f)return;
+    const g=db.gallery.find(x=>x.id===f.dataset.id);if(!g)return;
+    $('#lbFrame').style.backgroundImage=g.src?`url('${g.src}')`:SAMPLE[g.cat];
+    $('#lbCap').textContent=g.sample?g.cat+' (sample image)':g.cat;
+    $('#lb').classList.remove('hidden');
+  });
+  $('#lb').addEventListener('click',()=>$('#lb').classList.add('hidden'));
+  document.addEventListener('keydown',e=>{if(e.key==='Escape')$('#lb').classList.add('hidden')});
+
+  // Menu
+  const navList=$('#navList');
+  $('#menuBtn').addEventListener('click',()=>{const o=navList.classList.toggle('open');$('#menuBtn').setAttribute('aria-expanded',o)});
+  navList.addEventListener('click',e=>{if(e.target.tagName==='A'){navList.classList.remove('open')}});
+
+  // WhatsApp picker
+  function openWA(msg){
+    const box=$('#waPick');
+    $$('a',box).forEach(a=>a.remove());
+    db.phones.forEach(p=>{const a=document.createElement('a');a.href='https://wa.me/'+digits(p)+'?text='+encodeURIComponent(msg);a.target='_blank';a.rel='noopener';a.textContent='Chat with '+p;a.addEventListener('click',()=>box.classList.remove('show'));box.insertBefore(a,$('#waX'))});
+    box.classList.add('show');
+  }
+  $('#waFloat').addEventListener('click',()=>openWA('Hello RAYARA ENTERPRISES, I would like to make an enquiry.'));
+  $('#waX').addEventListener('click',()=>$('#waPick').classList.remove('show'));
+  $$('[data-wa]').forEach(b=>b.addEventListener('click',()=>openWA('Hello RAYARA ENTERPRISES, I would like to make an enquiry.')));
+
+  // Navigation to forms with service preselected
+  const GO={bday:['#birthday-form',null],auto:['#auto-form',null],trip:['#trip-form',null],mobile:['#genForm',SVCS.mobile],gift:['#genForm',SVCS.gift],frame:['#genForm',SVCS.frame]};
+  $$('[data-go]').forEach(b=>b.addEventListener('click',()=>{
+    const [target,svc]=GO[b.dataset.go];
+    if(svc)$('#genForm select[name=service]').value=svc;
+    document.querySelector(target).scrollIntoView({behavior:'smooth'});
+  }));
+
+  // Generic form handling
+  function fieldsOf(form){return $$('[name]',form).filter(el=>el.type!=='checkbox')}
+  function summarise(form,data){
+    return $$('[data-l]',form).map(el=>{const v=(data[el.name]||'').trim();return v?`${el.dataset.l}: ${v}`:null}).filter(Boolean);
+  }
+  $$('form.f').forEach(form=>{
+    form.setAttribute('novalidate','');
+    form.addEventListener('submit',e=>{
+      e.preventDefault();
+      const errEl=$('[data-err]',form);errEl.textContent='';
+      const bad=$$('[required]',form).find(el=>el.type==='checkbox'?!el.checked:!el.value.trim());
+      if(bad){errEl.textContent=bad.type==='checkbox'?'Please tick the venue acknowledgement to continue.':'Please complete all required fields.';bad.focus();return}
+      const em=$('[name=email]',form);
+      if(em&&!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em.value)){errEl.textContent='Please enter a valid email address.';em.focus();return}
+      const ph=$('[name=phone]',form);
+      if(ph&&digits(ph.value).length<10){errEl.textContent='Please enter a 10-digit mobile number.';ph.focus();return}
+      const data={};fieldsOf(form).forEach(el=>data[el.name]=el.value);
+      const kind=form.dataset.kind;
+      const lines=summarise(form,data);
+      if(form.querySelector('[name=ack]'))lines.push('Acknowledged: I am responsible for arranging my own event venue.');
+      db.enquiries.push({id:Date.now(),at:new Date().toISOString(),kind,name:data.name,phone:data.phone||'',alt:data.altphone||'',email:data.email||'',details:lines.join(' | ')});
+      persist();
+      if(ENDPOINT){fetch(ENDPOINT,{method:'POST',mode:'no-cors',headers:{'Content-Type':'text/plain'},body:JSON.stringify({kind,...data,details:lines.join(' | ')})}).catch(()=>{})}
+      const msg=`New ${kind} enquiry\n`+lines.join('\n');
+      const done=form.nextElementSibling;
+      const mailto='mailto:'+db.emails.join(',')+'?subject='+encodeURIComponent('New '+kind+' enquiry - '+(data.name||''))+'&body='+encodeURIComponent(msg);
+      done.innerHTML=`<h3>Thank you, ${esc(data.name)}.</h3><p>Your ${esc(kind)} enquiry has been received. Our team will contact you shortly.</p>
+        <div class="acts" style="margin-top:1rem"><button class="btn wa sm" data-wa-now>Send via WhatsApp</button><a class="btn ghost sm" href="${mailto}">Send by email</a></div>`;
+      $('[data-wa-now]',done).addEventListener('click',()=>openWA(msg));
+      form.classList.add('hidden');done.classList.add('show');
+    });
+  });
+
+  // Admin
+  const isAdmin=()=>location.hash==='#admin';
+  function renderAdmin(){
+    $('#aTag').value=db.tagline;$('#aPhones').value=db.phones.join(', ');$('#aEmails').value=db.emails.join(', ');
+    $('#aIg').value=db.ig;$('#aFb').value=db.fb;
+    $('#svcSel').innerHTML=Object.entries(SVCS).map(([k,v])=>`<option value="${k}">${esc(v)}</option>`).join('');
+    $('#gCat').innerHTML=CATS.map(c=>`<option>${esc(c)}</option>`).join('');
+    $('#gThumbs').innerHTML=db.gallery.map(g=>`<div style="background-image:${g.src?`url('${g.src}')`:SAMPLE[g.cat]}"><span style="position:absolute;left:4px;top:4px;background:#000;padding:0 4px">${g.sample?'Sample':''} ${esc(g.cat)}</span><button data-del="${g.id}">Delete</button></div>`).join('');
+    $('#enqRows').innerHTML=db.enquiries.slice().reverse().map(d=>`<tr><td>${new Date(d.at).toLocaleString()}</td><td>${esc(d.kind)}</td><td>${esc(d.name)}</td><td>${esc(d.phone)}${d.alt?'<br>Alt: '+esc(d.alt):''}<br>${esc(d.email)}</td><td>${esc(d.details)}</td></tr>`).join('')||'<tr><td colspan="5">No enquiries yet.</td></tr>';
+  }
+  $('#loginBtn').addEventListener('click',()=>{
+    if($('#adminPass').value===db.password){$('#loginBox').classList.add('hidden');$('#adminBox').classList.remove('hidden');renderAdmin()}
+    else $('#loginErr').textContent='Incorrect password.';
+  });
+  $('#aSave').addEventListener('click',()=>{
+    const split=s=>s.split(',').map(x=>x.trim()).filter(Boolean);
+    db.tagline=$('#aTag').value.trim()||DEF.tagline;
+    const p=split($('#aPhones').value);if(p.length)db.phones=p;
+    const em=split($('#aEmails').value);if(em.length)db.emails=em;
+    db.ig=$('#aIg').value.trim();db.fb=$('#aFb').value.trim();
+    persist();renderContacts();$('#aMsg').textContent='Saved.';setTimeout(()=>$('#aMsg').textContent='',2000);
+  });
+  function readImage(file,cb){
+    const r=new FileReader();r.onload=()=>{const im=new Image();im.onload=()=>{
+      const max=1280,s=Math.min(1,max/Math.max(im.width,im.height));
+      const c=document.createElement('canvas');c.width=im.width*s;c.height=im.height*s;
+      c.getContext('2d').drawImage(im,0,0,c.width,c.height);cb(c.toDataURL('image/jpeg',.8));
+    };im.src=r.result};r.readAsDataURL(file);
+  }
+  $('#svcFile').addEventListener('change',e=>{const f=e.target.files[0];if(!f)return;readImage(f,d=>{db.images[$('#svcSel').value]=d;persist();renderBackgrounds();$('#aMsg').textContent='Background updated.'})});
+  $('#svcReset').addEventListener('click',()=>{delete db.images[$('#svcSel').value];persist();renderBackgrounds()});
+  $('#gAdd').addEventListener('click',()=>{
+    const f=$('#gFile').files[0];if(!f){$('#aMsg').textContent='Choose an image first.';return}
+    readImage(f,d=>{db.gallery.push({id:'u'+Date.now(),cat:$('#gCat').value,src:d});persist();renderGallery();renderAdmin();$('#gFile').value=''});
+  });
+  $('#gThumbs').addEventListener('click',e=>{const b=e.target.closest('[data-del]');if(!b)return;db.gallery=db.gallery.filter(g=>g.id!==b.dataset.del);persist();renderGallery();renderAdmin()});
+  $('#exportBtn').addEventListener('click',()=>{
+    const cols=['at','kind','name','phone','alt','email','details'];
+    const csv=[cols.join(',')].concat(db.enquiries.map(d=>cols.map(k=>`"${String(d[k]??'').replace(/"/g,'""')}"`).join(','))).join('\n');
+    const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv'}));a.download='rayaru-enquiries.csv';a.click();
+  });
+  $('#clearBtn').addEventListener('click',()=>{if(confirm('Delete all enquiries stored in this browser?')){db.enquiries=[];persist();renderAdmin()}});
+
+  function route(){
+    const a=isAdmin();
+    $('#site').classList.toggle('hidden',a);$('#admin-view').classList.toggle('hidden',!a);
+    document.querySelector('header').classList.toggle('hidden',a);document.querySelector('footer').classList.toggle('hidden',a);
+    $('#waFloat').classList.toggle('hidden',a);
+    if(a)window.scrollTo(0,0);
+  }
+  window.addEventListener('hashchange',route);
+
+  renderContacts();renderBackgrounds();renderGallery();route();
+})();
+</script>
+</body>
+</html>
